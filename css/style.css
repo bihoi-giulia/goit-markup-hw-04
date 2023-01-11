@@ -1,0 +1,348 @@
+:root {
+  --highlight-color: #2196f3;
+  --white-color: #ffffff;
+  --gray-color: #757575;
+  --balck-color: #212121;
+  --backgrounde-color: #2f303a;
+  --gray-bc: #F5F4FA--;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+}
+.unstyled-list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.gray-bg {
+  background-color: var(--gray-bc);
+}
+
+/*Header styling */
+
+.page-header {
+  background-color: var(--white-color);
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 32 0;
+  align-items: center;
+}
+.nav-header {
+  margin-left: 93px;
+}
+.main-nav-link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14 px;
+  letter-spacing: 0.02em;
+}
+.main-nav-link:hover,
+.main-nav-link:active,
+.main-nav-link:focus {
+  color: var(--highlight-color);
+}
+
+.contact-list {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  margin-right: 40px;
+}
+
+.contact-list:hover,
+.contact-list:active,
+.contact-list:focus {
+  color: var(--highlight-color);
+}
+
+.page-header-logo {
+  color: black;
+  text-decoration: none;
+}
+
+.page-header-logo span {
+  text-decoration: none;
+  color: var(--highlight-color);
+}
+.logo {
+}
+.main-nav-item {
+  display: flex;
+  margin-right: 50px;
+}
+.contacts-header {
+  margin-left: 385px;
+}
+/*Main section */
+
+.service-button {
+  color: var(--white-color);
+  background-color: #2196f3;
+  border: 1px solid var(--highlight-color);
+  cursor: pointer;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.service-button:hover {
+  color: var(--white-color);
+  background-color: var(--highlight-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.service-button:active,
+.service-button:focus {
+  color: var(--white-color);
+  background-color: var(--highlight-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button {
+  text-align: center;
+  padding-bottom: 210px;
+}
+.main-section {
+  background-color: var(--backgrounde-color);
+}
+
+.main-title {
+  color: var(--white-color);
+  width: 100%;
+
+  left: 0px;
+  top: 80px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 200px;
+
+  padding-left: 452px;
+  padding-right: 452px;
+  font-size: 44px;
+}
+/*Detailes Section */
+
+.subtitle-detailes-section {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--balck-color);
+  margin-top: 94px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 94px;
+}
+.paragraf-detailes-section {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  color: var(--gray-color);
+
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;
+  margin-top: 10px;
+}
+
+.div-paragraf-detailes-section {
+  display: inline-flex;
+}
+
+/*Presentation  Section */
+
+.title-presentation {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--balck-color);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.img-1 {
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+  margin-right: 30px;
+}
+.img-2 {
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+  margin-right: 30px;
+}
+.img-3 {
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+}
+
+.flex {
+  display: inline-flex;
+}
+/*Team  Section */
+
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--balck-color);
+  text-align: center;
+  margin-top: 77px;
+  margin-bottom: 50px;
+}
+
+.name-section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--balck-color);
+  text-align: center;
+}
+.description-work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--gray-color);
+  text-align: center;
+}
+
+.team-section {
+  width: 1200px;
+  margin: 0 auto;
+  display: inline-flex;
+}
+.margin {
+  margin-bottom: 94px;
+}
+.img-team {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+.shadow {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-right: 30px;
+}
+/* Footer  Section*/
+
+.page-footer {
+  background-color: var(--backgrounde-color);
+}
+
+.page-footer-logo {
+  color: black;
+  text-decoration: none;
+}
+.page-footer-logo-span {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+.adress-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--white-color);
+}
+.adress-link:hover,
+.adress-link:active,
+.adress-link:focus {
+  color: var(--highlight-color);
+}
+
+/*Portofolio HTML*/
+.button-section {
+  background: none;
+  border: none;
+  margin-right: 30px;
+  background-color: #f5f4fa;
+  width: 83px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.button-section:hover {
+  border: none;
+  cursor: pointer;
+  background-color: var(--highlight-color);
+  color: var(--white-color);
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+.button-section:active {
+  background: #2196f3;
+}
+.button-section:focus {
+  list-style-type: none;
+  background-color: var(--highlight-color);
+  color: var(--white-color);
+}
+.align-center-button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 94px;
+  margin-bottom: 56px;
+}
+.subtitle-detailes {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--balck-color);
+  letter-spacing: 0.06em;
+  margin-top: 20px;
+}
+.paragraf-detailes {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--gray-color);
+  letter-spacing: 0.03em;
+  margin-top: 4px;
+}
+.list {
+  list-style-type: none;
+}
+.img-portofolio {
+  margin-right: 30px;
+  margin-top: 30px;
+  border: 1px solid #eeeeee;
+}
+.flex-1 {
+  display: flex;
+  margin-top: 56px;
+}
+
+.margin-button {
+  margin-bottom: 114px;
+}
