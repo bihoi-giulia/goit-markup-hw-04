@@ -4,7 +4,7 @@
   --gray-color: #757575;
   --balck-color: #212121;
   --backgrounde-color: #2f303a;
-  --gray-bc: #F5F4FA--;
+  --gray-bc: #f5f4fa;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -21,8 +21,8 @@ body {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 .gray-bg {
   background-color: var(--gray-bc);
@@ -78,14 +78,26 @@ body {
   text-decoration: none;
   color: var(--highlight-color);
 }
-.logo {
-}
+
 .main-nav-item {
   display: flex;
   margin-right: 50px;
+
+  margin-left: 12px;
+}
+.main-nav-item:hover {
+  cursor: pointer;
 }
 .contacts-header {
   margin-left: 385px;
+}
+.contact-icon {
+  fill: var(--gray-color);
+  margin-left: -6px;
+  margin-bottom: -10px;
+}
+.contact-icon:hover {
+  fill: var(--highlight-color);
 }
 /*Main section */
 
@@ -119,7 +131,7 @@ body {
   padding-bottom: 210px;
 }
 .main-section {
-  background-color: var(--backgrounde-color);
+  background-image: url(/images/imgbg.jpg);
 }
 
 .main-title {
@@ -145,10 +157,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: var(--balck-color);
-  margin-top: 94px;
-  margin-right: 30px;
-  margin-left: 30px;
-  margin-bottom: 94px;
+  margin-top: 30px;
 }
 .paragraf-detailes-section {
   font-weight: 400;
@@ -167,7 +176,22 @@ body {
 .div-paragraf-detailes-section {
   display: inline-flex;
 }
-
+.detailes {
+  width: 270px;
+  height: 120px;
+  left: 215px;
+  top: 774px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-top: 70px;
+  margin-right: 30px;
+}
+.header-icon {
+  margin-bottom: 30px;
+  display: block;
+  margin: auto;
+  width: 80px;
+}
 /*Presentation  Section */
 
 .title-presentation {
@@ -178,6 +202,7 @@ body {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 50px;
+  margin-top: 120px;
 }
 .img-1 {
   width: 370px;
@@ -221,6 +246,7 @@ body {
   line-height: 19px;
   color: var(--balck-color);
   text-align: center;
+  margin-bottom: 0px;
 }
 .description-work {
   font-weight: 400;
@@ -228,6 +254,7 @@ body {
   line-height: 19px;
   color: var(--gray-color);
   text-align: center;
+  margin-bottom: 90px;
 }
 
 .team-section {
@@ -238,15 +265,58 @@ body {
 .margin {
   margin-bottom: 94px;
 }
-.img-team {
-  margin-top: 50px;
-  margin-right: 30px;
-}
+
 .shadow {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
+}
+.social-icons {
+  width: 20px;
+  height: 20px;
+}
+.container-team {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f5f4fa;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+/*Costumers Section */
+.title-costumers {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 94px;
+}
+.costumers {
+  width: 170px;
+  height: 92px;
+  left: 215px;
+  top: 2493px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  margin-right: 21px;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+.regular-icon {
+  display: block;
+  margin: auto;
+  width: 112px;
+  fill: var(--gray-color);
+}
+.regular-icon:hover {
+  cursor: pointer;
+  fill: var(--highlight-color);
 }
 /* Footer  Section*/
 
@@ -267,7 +337,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  color: var(--white-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .adress-link:hover,
 .adress-link:active,
@@ -275,6 +345,11 @@ body {
   color: var(--highlight-color);
 }
 
+.color-adress {
+  color: var(--white-color);
+}
+.find-us {
+}
 /*Portofolio HTML*/
 .button-section {
   background: none;
@@ -337,6 +412,16 @@ body {
   margin-right: 30px;
   margin-top: 30px;
   border: 1px solid #eeeeee;
+}
+.photo-portofolio:hover {
+  border: 1px solid rgba(238, 238, 238, 1);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  color: rgb(238, 238, 238, 1) rgb(255, 255, 255, 1);
 }
 .flex-1 {
   display: flex;
