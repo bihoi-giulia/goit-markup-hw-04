@@ -131,7 +131,7 @@ body {
   padding-bottom: 210px;
 }
 .main-section {
-  background-image: url(../images/imgbg.jpg);
+  background-image: url(/images/imgbg.jpg);
 }
 
 .main-title {
