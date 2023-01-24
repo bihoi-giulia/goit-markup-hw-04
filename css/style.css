@@ -415,7 +415,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.social-footer-link {
+.social-footer-link:hover {
   background: #2196f3;
 }
 .social-icon-footer {
