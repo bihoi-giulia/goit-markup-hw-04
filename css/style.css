@@ -299,10 +299,7 @@ body {
   color: var(--highlight-color);
   border-radius: 50%;
 }
-.social-icon:hover {
-  background: #2196f3;
-  fill: var(--white-color);
-}
+
 /*Costumers Section */
 .subtitle {
   font-weight: 700;
