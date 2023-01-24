@@ -415,19 +415,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.social-footer-link:hover {
-  fill: var(--white-color);
-  background: var(--highlight-color);
-}
+
 .social-icon-footer {
   width: 20px;
   height: 20px;
   fill: var(--white-color);
 }
-.social-icon-footer:hover {
-  background: var(--highlight-color);
-  color: var(--white-color);
-}
+
 /*Portofolio HTML*/
 
 /*button Section*/
