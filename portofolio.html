@@ -20,156 +20,205 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
   </head>
+
+  <!-- Header Section -->
   <body>
-    <!-- Header Section -->
-    <div class="container">
-      <header class="page-header">
-        <a class="page-header-logo" href="index.html">
-          <h3><span class="page-header-logo span logo"> Web</span>Studio</h3>
-        </a>
-        <nav>
-          <ul class="main-nav-item unstyled-list nav-header">
-            <li>
-              <a class="main-nav-item main-nav-link link" href="index.html"
-                >Studio
-              </a>
+    <header class="header-page">
+      <section class="header-section">
+        <a class="logo link" href="./index.html"
+          >Web<span class="header-logo">Studio</span></a
+        >
+        <nav class="main-nav-list">
+          <ul class="unstyled-list nav-menu-list">
+            <li class="main-nav-item">
+              <a class="nav-link link" href="./index.html">Studio</a>
             </li>
-            <li>
-              <a class="main-nav-item main-nav-link link" href="portofolio.html"
-                >Portofolio</a
-              >
+            <li class="main-nav-item">
+              <a class="nav-link link" href="./portofolio.html">Portfolio</a>
             </li>
-            <li>
-              <a class="main-nav-item main-nav-link link" href="contacts.html"
-                >Contacts</a
-              >
+            <li class="main-nav-item">
+              <a class="nav-link link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
-        <ul class="main-nav-item unstyled-list contacts-header">
-          <li>
-            <svg class="contact-icon" width="12px" height="12px">
-              <use href="/images/symbol-defs.contact.svg#icon-envelop"></use>
-            </svg>
-            <a
-              class="main-nav-item contact-list link"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+        <ul class="unstyled-list contact-nav-list">
+          <li class="contact-nav-item">
+            <a class="nav-contact link" href="mailto:info@devstudio.com">
+              <svg class="contact-icon">
+                <use href="./images/icons.svg#icon-envelope-hover"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
-          <li>
-            <svg class="contact-icon" width="12px" height="12px">
-              <use href="/images/symbol-defs.contact.svg#icon-mobile"></use>
-            </svg>
-            <a class="main-nav-item contact-list link" href="tel:+12127724150"
-              >+12127724150</a
+          <li class="contact-nav-item">
+            <a class="nav-contact link" href="tel:+12127724150">
+              <svg class="contact-phone-icon">
+                <use href="./images/icons.svg#icon-telephone"></use>
+              </svg>
+              +1 212-772-4150</a
             >
           </li>
         </ul>
-      </header>
-    </div>
-
+      </section>
+    </header>
     <!--Button section-->
-    <div class="container">
-      <div class="align-center-button">
-        <button class="button-section" type="button">All</button>
-        <button class="button-section" type="button">Web-sites</button>
-        <button class="button-section" type="button>">Apps</button>
-        <button class="button-section" type="button>">Marketing</button>
-      </div>
-      <!-- Main  Section -->
-      <div class="container">
-        <div class="flex-1">
-          <span class="img-portofolio photo-portofolio">
-            <img width="370" src="./images/img01.jpg" alt="img01" />
-            <div class="subtitle-detailes">Technoduck</div>
-            <div class="paragraf-detailes">Web Site</div>
-          </span>
-
-          <span class="img-portofolio photo-portofolio">
-            <img width="370" src="./images/img 02.jpg" alt="img02" />
-            <div class="subtitle-detailes">
-              Poster New Orlean vs Golden Star
-            </div>
-            <div class="paragraf-detailes">Design</div>
-          </span>
-
-          <span class="img-portofolio photo-portofolio">
-            <img width="370" src="./images/img 03.jpg" alt="imig03" />
-            <div class="subtitle-detailes">Seafood Restaurant</div>
-            <div class="paragraf-detailes">Apps</div>
-          </span>
+    <main>
+      <section class="portfolio-section">
+        <div class="project-box">
+          <ul class="unstyled-list project-item">
+            <li>
+              <button class="project-examples" type="button">All</button>
+            </li>
+            <li>
+              <button class="project-examples" type="button">Web-sites</button>
+            </li>
+            <li>
+              <button class="project-examples" type="button">Apps</button>
+            </li>
+            <li>
+              <button class="project-examples" type="button">Design</button>
+            </li>
+            <li>
+              <button class="project-examples" type="button">Marketing</button>
+            </li>
+          </ul>
         </div>
-        <div class="flex">
-          <span class="img-portofolio photo-portofolio">
-            <img width="370" src="./images/img 04.jpg" alt="img04" />
-            <div class="subtitle-detailes">Project Prime</div>
-            <div class="paragraf-detailes">Marketing</div>
-          </span>
-
-          <span class="img-portofolio photo-portofolio">
-            <img width="370" src="./images/img 05.jpg" alt="img05" />
-            <div class="subtitle-detailes">Project Boxes</div>
-            <div class="paragraf-detailes">Apps</div>
-          </span>
-
-          <span class="img-portofolio photo-portofolio">
-            <img width="370" src="./images/img 06.jpg" alt="img06" />
-            <div class="subtitle-detailes">Inspiration has no Borders</div>
-            <div class="paragraf-detailes">Web-site</div>
-          </span>
+        <!-- Main  Section-->
+        <div class="project-box">
+          <ul class="unstyled-list project-img">
+            <li class="project-img-list">
+              <img
+                src="./images/img01.jpg"
+                alt="Technoduck portfolio"
+                width="370"
+              />
+              <h3 class="project-list">Technoduck</h3>
+              <p class="project-profile">Web-site</p>
+            </li>
+            <li class="project-img-list">
+              <img
+                src="./images/img 02.jpg"
+                alt="Design portfolio"
+                width="370"
+              />
+              <h3 class="project-list">Poster New Orlean vs Golden Star</h3>
+              <p class="project-profile">Design</p>
+            </li>
+            <li class="project-img-list">
+              <img src="./images/img 03.jpg" alt="Apps portfolio" width="370" />
+              <h3 class="project-list">Seafood Restaurant</h3>
+              <p class="project-profile">Apps</p>
+            </li>
+            <li class="project-img-list">
+              <img
+                src="./images/img 04.jpg"
+                alt="Marketing portfolio"
+                width="370"
+              />
+              <h3 class="project-list">Project Prime</h3>
+              <p class="project-profile">Marketing</p>
+            </li>
+            <li class="project-img-list">
+              <img src="./images/img 05.jpg" alt="Apps portfolio" width="370" />
+              <h3 class="project-list">Project Boxes</h3>
+              <p class="project-profile">Apps</p>
+            </li>
+            <li class="project-img-list">
+              <img
+                src="./images/img 06.jpg"
+                alt="Web-site portfolio"
+                width="370"
+              />
+              <h3 class="project-list">Inspiration has no Borders</h3>
+              <p class="project-profile">Web-site</p>
+            </li>
+            <li class="project-img-list">
+              <img
+                src="./images/img 07.jpg"
+                alt="Design portfolio"
+                width="370"
+              />
+              <h3 class="project-list">Limited Edition</h3>
+              <p class="project-profile">Design</p>
+            </li>
+            <li class="project-img-list">
+              <img
+                src="./images/img 08.jpg"
+                alt="Marketing portfolio"
+                width="370"
+              />
+              <h3 class="project-list">Project LAB</h3>
+              <p class="project-profile">Marketing</p>
+            </li>
+            <li class="project-img-list">
+              <img src="./images/img 09.jpg" alt="Apps portfolio" width="370" />
+              <h3 class="project-list">Growing Business</h3>
+              <p class="project-profile">Apps</p>
+            </li>
+          </ul>
         </div>
-        <div class="flex-1 margin-button">
-          <span class="img-portofolio">
-            <img width="370" src="./images/img 07.jpg" alt="img07" />
-            <div class="subtitle-detailes">Limited Edition</div>
-            <div class="paragraf-detailes">Design</div>
-          </span>
-
-          <span class="img-portofolio photo-portofolio">
-            <img width="370" src="./images/img 08.jpg" alt="img08" />
-            <div class="subtitle-detailes">Project LAB</div>
-            <div class="paragraf-detailes">Marketing</div>
-          </span>
-
-          <span class="img-portofolio photo-portofolio">
-            <img width="370" src="./images/img 09.jpg" alt="img09" />
-            <div class="subtitle-detailes">Growing Business</div>
-            <div class="paragraf-detailes">Apps</div>
-          </span>
-        </div>
-      </div>
-    </div>
+      </section>
+    </main>
     <!-- Footer  Section -->
-    <footer class="page-footer">
-      <div class="container">
-        <a class="page-footer-logo" href="index.html">
-          <h3><span class="page-footer-logo-span">Web</span>Studio</h3></a
-        >
-        <address>
-          <div class="unstyled-list">
-            <div>
-              <a
-                class="link adress-link"
-                href="https://goo.gl/maps/74Eq4DnWw4nvqVAV8"
-                target="_blank"
-                >695 Park Ave, NY 10065, USA</a
-              >
-            </div>
 
-            <div>
-              <a class="link adress-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com
+    <footer class="footer">
+      <section class="footer-section">
+        <div class="footer-contact">
+          <a class="logo link" href="./index.html"
+            >Web<span class="footer-logo">Studio</span></a
+          >
+          <address>
+            <ul class="unstyled-list contact-footer-list">
+              <li>
+                <p class="contact-address">695 Park Ave, NY 10065, USA</p>
+              </li>
+              <li>
+                <a class="contact-footer link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contact">
+                <a class="contact-footer link" href="tel:+12127724150"
+                  >+1 212-772-4150</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="social-section">
+          <h3 class="social-footer">FIND US ON</h3>
+          <ul class="unstyled-list social-footer-list">
+            <li>
+              <a href="#" target="_blank" class="social-footer-link">
+                <svg class="social-icon-footer">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
               </a>
-            </div>
-            <div>
-              <a class="link adress-link" href="tel:+12127724150"
-                >+12127724150</a
-              >
-            </div>
-          </div>
-        </address>
-      </div>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="social-footer-link">
+                <svg class="social-icon-footer">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="social-footer-link">
+                <svg class="social-icon-footer">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="social-footer-link">
+                <svg class="social-icon-footer">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
