@@ -293,7 +293,10 @@ body {
   height: 20px;
   color: var(--highlight-color);
 }
-
+.social-icon:hover {
+  background: #2196f3;
+  color: var(--white-color);
+}
 /*Costumers Section */
 .subtitle {
   font-weight: 700;
@@ -415,7 +418,10 @@ body {
   fill: rgba(255, 255, 255, 0.1);
   color: var(--white-color);
 }
-
+.social-footer {
+  background: var(--highlight-color);
+  color: var(--white-color);
+}
 /*Portofolio HTML*/
 
 /*button Section*/
