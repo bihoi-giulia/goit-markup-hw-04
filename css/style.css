@@ -290,8 +290,8 @@ body {
   border-radius: 50%;
 }
 .social-link:hover {
-  fill: var(--white-color);
-  background: var(--highlight-color);
+  fill: white;
+  background: #2196f3;
 }
 .social-icon {
   width: 20px;
@@ -301,7 +301,7 @@ body {
 }
 .social-icon:hover {
   background: #2196f3;
-  color: var(--white-color);
+  fill: var(--white-color);
 }
 /*Costumers Section */
 .subtitle {
