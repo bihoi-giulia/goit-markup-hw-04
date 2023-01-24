@@ -419,7 +419,7 @@ body {
   align-items: center;
 }
 .social-footer-link:hover {
-  background: var(--highlight-color);
+  background: #2196f3;
 }
 .social-icon-footer {
   width: 20px;
