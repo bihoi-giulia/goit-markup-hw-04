@@ -412,13 +412,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+.social-footer-link:hover {
+  color: var(--white-color);
+  background: var(--highlight-color);
+}
 .social-icon-footer {
   width: 20px;
   height: 20px;
   fill: rgba(255, 255, 255, 0.1);
   color: var(--white-color);
 }
-.social-footer {
+.social-icon-footer:hover {
   background: var(--highlight-color);
   color: var(--white-color);
 }
