@@ -416,7 +416,7 @@ body {
   align-items: center;
 }
 .social-footer-link:hover {
-  color: var(--white-color);
+  fill: var(--white-color);
   background: var(--highlight-color);
 }
 .social-icon-footer {
