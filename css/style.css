@@ -416,7 +416,7 @@ body {
   align-items: center;
 }
 .social-footer-link:hover {
-  background: #2196f3;
+  fill: #2196f3;
 }
 .social-icon-footer {
   width: 20px;
